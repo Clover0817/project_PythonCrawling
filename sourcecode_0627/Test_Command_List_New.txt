@@ -1,0 +1,40 @@
+<< Gmarket Test >>
+## python main.py  2  4  "https://browse.gmarket.co.kr/list?category=200001211&s=8"  1  (동작 테스트 선행) 
+
+python main.py  2  4  "https://browse.gmarket.co.kr/list?category=300012563&gate_id=DL1UNL0I-9XVK-94U7-UTIY-H8K9RHQ9HIKA"   1
+python main.py  2  1  "http://browse.gmarket.co.kr/search?keyword=%EB%B4%89%EC%A7%80%EB%9D%BC%EB%A9%B4"  1    		## login_mode test
+
+python main.py  2  2  "https://www.gmarket.co.kr/n/best?jaehuid=200011415"   1    
+python main.py  2  3  "https://www.gmarket.co.kr/n/superdeal"   1                 		        
+python main.py  2  5  "https://item.gmarket.co.kr/Item?goodscode=2491456755&ver=20230522"   1
+
+
+
+
+https://browse.gmarket.co.kr/list?category=300012563&gate_id=DL1UNL0I-9XVK-94U7-UTIY-H8K9RHQ9HIKA&k=24&p=1  (복수 그룹)
+(먼저 둘러 보세요/오늘의 상품이에요/이 상품은 어떠세요/오늘 주문 내일 도착/주목할 만한 상품이에요)
+https://browse.gmarket.co.kr/list?category=300012563&gate_id=DL1UNL0I-9XVK-94U7-UTIY-H8K9RHQ9HIKA&k=24&p=2  (단일 그룹: 주목할 만한 상품이에요)
+https://browse.gmarket.co.kr/list?category=300012563&gate_id=DL1UNL0I-9XVK-94U7-UTIY-H8K9RHQ9HIKA&k=24&p=3  (단일 그룹: 주목할 만한 상품이에요)
+
+
+https://browse.gmarket.co.kr/search?keyword=%EB%B4%89%EC%A7%80%EB%9D%BC%EB%A9%B4&k=32&p=1
+https://browse.gmarket.co.kr/search?keyword=%eb%b4%89%ec%a7%80%eb%9d%bc%eb%a9%b4&k=32&p=2
+
+
+https://www.gmarket.co.kr/n/best?jaehuid=200011415
+https://www.gmarket.co.kr/n/superdeal
+https://item.gmarket.co.kr/Item?goodscode=2491456755&ver=20230522        (Seleninum 써야먄 상품평으로 넘어감. Exception 없을듯.) 
+
+
+
+## soup find/select 문법 설명 
+https://wooni0103.tistory.com/53
+https://desarraigado.tistory.com/14
+
+
+
+
+
+
+
+
