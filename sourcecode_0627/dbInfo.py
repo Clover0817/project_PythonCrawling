@@ -43,7 +43,7 @@ def getLoginData(mode, dbconn, cursor):
     #     exi(1)
     # print(result)
 
-    return "wanlee02", "Crawling2023@@"
+    return "id", "pwd"
 
 
 ## insert data into DB
